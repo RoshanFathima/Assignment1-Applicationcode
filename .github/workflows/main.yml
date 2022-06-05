@@ -62,7 +62,7 @@ jobs:
         
           docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
          
-          docker run -d -p 8081:80 --name rf-cats-dogs $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+          docker run -d -p 8081:80 --name rf-cats-dogs-dogs $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
          
           docker ps
           echo " container to run sleep for 10 seconds"
