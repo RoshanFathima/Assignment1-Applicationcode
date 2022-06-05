@@ -112,6 +112,6 @@ resource "aws_eip" "static_eip" {
 }
 
 resource "aws_ecr_repository" "ecr-repo" {
-  name                 = "rf-cats-dogs"
+  name                 = "rf-images"
   image_tag_mutability = "MUTABLE"
 }
