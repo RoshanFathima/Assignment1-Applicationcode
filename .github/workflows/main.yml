@@ -32,7 +32,7 @@ jobs:
         env: 
           ECR_REGISTRY: ${{steps.login-ecr.outputs.registry}}
           ECR_REPOSITORY: rf-images
-          IMAGE_TAG: catsv0.1
+          IMAGE_TAG: catsv1.1
           
      
         run: |
@@ -51,7 +51,7 @@ jobs:
         env: 
           ECR_REGISTRY: ${{steps.login-ecr.outputs.registry}}
           ECR_REPOSITORY: rf-images
-          IMAGE_TAG: dogsv0.1
+          IMAGE_TAG: dogsv1.1
                
         run: |
           cd dogs/
