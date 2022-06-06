@@ -1,11 +1,6 @@
 .terraform
-
 .terraform.lock.hcl
-
-*.pub
-
-*clo835-assignment1-dev*
-
 terraform.tfstate.backup
-
 terraform.tfstate
+*.pub
+*clo835-assignment1-dev*
